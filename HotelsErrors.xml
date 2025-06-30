@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<Hotel>
+  <Hotel>
+    <Name>Error Hotel One</Name>
+    <Phone>123-456-7890</Phone>
+    <Address>
+      <Number>101</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85001</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.5">
+    <Name>Error Hotel Two</Name>
+    <Address>
+      <Number>102</Number>
+      <Street>Second St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Mesa Gateway</NearestAirport>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.0">
+    <Name>Error Hotel Three</Name>
+    <Phone>987-654-3210</Phone>
+    <!--Malformed Address-->
+  </Hotel>
+  <Hotel Rating="4.2">
+    <Name>Error Hotel Four A</Name>
+    <Name>Error Hotel Four B</Name>
+    <Phone>222-333-4444</Phone>
+    <Address>
+      <Number>104</Number>
+      <Street>Fourth St</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85203</Zip>
+      <NearestAirport>Mesa Gateway</NearestAirport>
+    </Address>
+  </Hotel>
+</Hotel>
